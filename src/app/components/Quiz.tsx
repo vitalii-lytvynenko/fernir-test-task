@@ -111,7 +111,7 @@ const Quiz: React.FC<QuizProps> = ({ questions }) => {
                           'border-success bg-success': isAnswered && wasCorrect,
                           'border-wrong bg-wrong': isAnswered && !wasCorrect,
                           'border-gray-300 bg-transparent': !isAnswered,
-                          'ring-main ring-2 border-0': isCurrent && !isAnswered,
+                          'ring-main ring-2 border-none': isCurrent && !isAnswered,
                         },
                       )}
                     >
